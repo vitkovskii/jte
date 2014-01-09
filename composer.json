@@ -1,5 +1,6 @@
 {
     "name": "vitkovskii/jte",
+    "description": "Fast and flexible template engine",
     "license": "MIT",
     "authors": [
         {
