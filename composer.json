@@ -1,0 +1,24 @@
+{
+    "name": "vitkovskii/jte",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitkovskii Vladimir",
+            "email": "vitkovskii@gmail.com"
+        }
+    ],
+    "version": "0.1.0-dev",
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jte\\": ["src/", "tests/"]
+        },
+        "files": [
+            "src/Jte/Language/Framework.php",
+            "src/Jte/Language/BlockLogic/Syntax.php",
+            "src/Jte/Language/BootLogic/Syntax.php"
+        ]
+    }
+}
