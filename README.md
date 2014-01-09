@@ -5,6 +5,15 @@ Fast and flexible template engine
 
 See [example](https://github.com/vitkovskii/jte/tree/master/examples)
 
+Use composer to install
+
+Main features
+---
+* Separated markup and logic
+* Template inheritance
+* Super fast and simple
+* No dependencies
+
 Basic usage
 ---
 ```
@@ -42,7 +51,7 @@ boot {
 More complex:
 ```
 boot {
-    if (param('some') % 2 = 0) {
+    if (param('some') % 2 == 0) {
         extend('foo.jte');
     } else {
         extend('baz.jte');
@@ -191,3 +200,9 @@ markup menu {
     </ul>
 }
 ```
+
+To do
+---
+
+* Add documentation for template inheritance mechanism
+* Add more examples
